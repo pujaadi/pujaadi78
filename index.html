@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--PROMOTION COMPONENT-->
+    <div class="bg-indigo-600 px-4 py-3 text-white">
+        <p class="text-center text-sm font-medium">
+            PROMO HINGGA 75%
+          <a href="#" class="inline-block underline">BERLAKU UNTUK HARI INI SAJA!</a>
+        </p>
+      </div>
+    <!--END PROMOTION COMPONENT-->
+      <!--NAVBAR COMPONENT-->
+    <header class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">HARD STORE</h1>
+    
+            <p class="mt-1.5 text-sm text-gray-500">
+              belanja barang parabot rumah tangga.
+            </p>
+          </div>
+    
+          <div class="flex items-center gap-4">
+            <a
+              href="cara-belanja.html"
+              class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              <span class="text-sm font-medium"> cara belanja </span>
+            </a>
+    
+            <button
+              class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+              type="button"
+            >
+              chat admin
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--END NAVBAR COMPONENT-->
+
+    <!--CALL TO ACTION COMPONENT-->
+        <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+
+  Plugins:
+    - @tailwindcss/forms
+-->
+<section class="bg-gray-50">
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+      </h2>
+
+      <p class="hidden text-gray-500 sm:mt-4 sm:block">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis
+        repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt
+        tempora nisi?
+      </p>
+    </div>
+
+    <div class="mx-auto mt-8 max-w-xl">
+      <form action="#" class="sm:flex sm:gap-4">
+        <div class="sm:flex-1">
+          <label for="email" class="sr-only">Email</label>
+
+          <input
+            type="email"
+            placeholder="rak piring"
+            class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-indigo-400"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+        >
+          <span class="text-sm font-medium"> cari </span>
+
+          <svg
+            class="size-5 rtl:rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+    <!--END CALL TO ACTION COMPONENT-->
+
+    <!-- PRODUCT LIST-->
+    <div class="container grid grid-cols-3 gap-4 max-w-xl mx-auto py-8">
+      <a href="https://wa.me/6283199062401?text=saya mau beli Rak piring" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1226352504/id/foto/dish-rack-menyimpan-banyak-hidangan-dan-cangkir-melawan-meja-kayu-ubin-dinding-putih-wastafel.jpg?s=1024x1024&w=is&k=20&c=6jEZhcswz7QjcnhIazDNXkPRBVIrMpuwSQqoI2lQplQ="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            Rak piring
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 150.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli gantungan baju" class="group block">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1671029166909-67b16aea1426?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            gantungan baju
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 150.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli sapu" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1383930258/id/foto/sapu-diletakkan-di-dinding-biru-latar-belakang-pembersihan-sapu-tua.jpg?s=1024x1024&w=is&k=20&c=SgSTnmsMvpGT7FC760bBEtZbF_TtKWorlbumI7RgVKU="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            sapu
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 50.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau meja belajar" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1254646139/id/foto/tempat-kerja-yang-nyaman-dengan-tanaman-pot-penyelenggara-dinding-gambar-dan-komputer.jpg?s=1024x1024&w=is&k=20&c=HrWw19CYY7JSR_g5gfgguPZi4DTYwRg82DyuCNGfiDU="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            meja belajar
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 250.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli lemari" class="group block">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1674773521430-67912c885d46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3VwYm9hcmR8ZW58MHx8MHx8fDA%3D"
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            lemari
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 1.150.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli rak sepatu" class="group block">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664202526744-516d0dd22932?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            Rak sepatu
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 90.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau kipas angin" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1328818226/id/foto/kipas-meja-putih-bertenaga-baterai-terisolasi-pada-latar-belakang-putih-dengan-jalur-kliping.jpg?s=1024x1024&w=is&k=20&c=K0UImKaGLjvRUuU6PuKV0wqsYP4nGHZeCrhgFIdgrpA="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            kipas angin
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 120.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli kasur" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1386819139/id/foto/tempat-tidur-dan-kasur-tunggal-berwarna-putih-di-kamar-tidur-konsep-kenyamanan-tidur-render-3d.jpg?s=1024x1024&w=is&k=20&c=aYL1gzesRlj1LtbEDQ3EPPBhdE12oNbh8EfWSz3c2dU="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            kasur
+          </h3>
+      
+          <p class="mt-1 text-sm text-gray-700">Rp 350.000</p>
+        </div>
+      </a>
+      <a href="https://wa.me/6283199062401?text=saya mau beli sofa" class="group block">
+        <img
+          src="https://media.istockphoto.com/id/1926860167/id/foto/tampak-depan-ruang-tamu-yang-nyaman-elegan-dan-modern-dengan-sofa-abu-abu-jendela-dengan.jpg?s=1024x1024&w=is&k=20&c=eKyxeu9yEVFnxdQWmKEbGPBBFrziJnsx9QGhaEEzjLM="
+          alt=""
+          class="aspect-square w-full rounded object-cover"
+        />
+      
+        <div class="mt-3">
+          <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+            sofa
+          </h3>
+    
+          <p class="mt-1 text-sm text-gray-700">Rp 950.000</p>
+        </div>
+      </a>
+    </div>
+    <!--END PRODUCT LIST-->
+
+    <!--FOOTER-->
+    <footer class="bg-gray-50">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="flex justify-center text-indigo-600 sm:justify-start font-bold">
+            HARDSTORE
+          </div>
+    
+          <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+            Copyright &copy; 2024. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER-->
+
+
+</body>
+</html>
